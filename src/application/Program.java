@@ -41,6 +41,8 @@ public class Program {
 		System.out.println("Imposto: " + String.format("%.2f", cr.getInvoic().getTax()));
 		System.out.println("Pagamento total: " + String.format("%.2f", cr.getInvoic().getTotalPayment()));
 		
+		System.out.println("FIM DO ALUGUEL");
+		
 		sc.close();
 	}
 
